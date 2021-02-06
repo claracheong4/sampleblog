@@ -1,0 +1,21 @@
+.posts {
+    border: 1px solid;
+    border-color: #C9C9C9;
+    border-radius: 0.3em;
+    box-shadow: 0.05em 0.05em 0.2em 0.2em rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.count {
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-left: 1.5em;
+    padding-block: 1em;
+    color: #858585;
+}
+
+.list {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-block: 1em;
+}

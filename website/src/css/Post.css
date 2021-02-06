@@ -1,0 +1,31 @@
+.post {
+    padding-block: 0.5em;
+}
+
+.postbox {
+    border: 1px solid;
+    border-color: #C9C9C9;
+    border-radius: 0.5em;
+    background-color: white;
+    padding-block: 1em;
+}
+
+.title {
+    font-weight: bold;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-block: 0.5em;
+}
+
+.body {
+    color:#858585;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-block: 0.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    max-height: 1em;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+}
