@@ -4,7 +4,7 @@ import { capitalise } from './Util.js';
 
 import '../css/Post.css';
 
-function Post( {title, body} ) {
+export default function Post( {title, body} ) {
     return (
         <div class="post">
             <div class="postbox">
@@ -18,5 +18,3 @@ function Post( {title, body} ) {
         </div>
     );
 }
-
-export default Post;

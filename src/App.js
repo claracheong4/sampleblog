@@ -6,7 +6,7 @@ import Posts from './components/Posts.js';
 
 import './css/App.css';
 
-class App extends React.Component {
+export default class App extends React.Component {
     state = {
         name: '',
         phone: 0,
@@ -52,7 +52,6 @@ class App extends React.Component {
     }
 
     render() {
-        console.log('renderapp', this.props, this.state);
         return (
             <div class="row">
                 <div class="column">
@@ -72,4 +71,3 @@ class App extends React.Component {
     }
 }
 
-export default App;

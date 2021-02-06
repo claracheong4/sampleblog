@@ -11,7 +11,7 @@ import { getPhoneText, getCompanyBsText, getAddressText } from './Util.js';
 
 import '../css/Info.css';
 
-function Info( {name, phone, companyBs, address} ) {
+export default function Info( {name, phone, companyBs, address} ) {
     return (
         <div class="info">
             <img src={image} class="img"></img>
@@ -31,4 +31,3 @@ function Info( {name, phone, companyBs, address} ) {
     );
 }
 
-export default Info;

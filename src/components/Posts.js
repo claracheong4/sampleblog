@@ -4,7 +4,7 @@ import Post from './Post.js';
 
 import '../css/Posts.css';
 
-function Posts( {name, posts} ) {
+export default function Posts( {name, posts} ) {
     function getHeader() {
         return name.substr(0, name.indexOf(' ')) + "'s Posts";
     }
@@ -30,4 +30,3 @@ function Posts( {name, posts} ) {
     );
 }
 
-export default Posts;
