@@ -1,5 +1,7 @@
 # Sample Blog
 
+![Screenshot](screenshot.png)
+
 ## API
 
 API used is [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/).
